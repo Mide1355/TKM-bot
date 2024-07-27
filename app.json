@@ -28,14 +28,14 @@
      "PM_PERMIT" :
      {
       "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"no",
+      "value":"yes",
       "required":false
     }
     ,
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"TKM bot",
+      "value":"anonymous",
       "required":false
 
     } ,
@@ -67,7 +67,7 @@
     "SESSION_ID":
     {
       "description":"put your session ID, the code you received after pairing code",   
-      "value":"",
+      "value":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiU1BuVWxvc0N6dG9tejB5ZlN6ZnorTTNiTXlWUlNhSThBcTdxUXYraXgzVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYjVta2hqRWVVUStBbEFmaERiMnNmU3Z0bkNTcXVITFd3NnFBTjU5ZVRncz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJZSmozeG1GYmxEdjBCaUp5aWg5ek5MQ2dSZGJPWmEzWTl3Q2l1SG1icGs4PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJlWmVrZ1RkZkdwZFk4aldxQlVyU2EyMkZrdHY2WU5MZ1VtWlI0emxSSkFJPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkdPdDc2RmJiSlRNRi9XbWk4eTk2QlZxd0pyMWl5UDNZaGFuUnZqaWFZMk09In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im5SUTFMdWxRYTZrVU9WaTlIY0NoR0Q0L3BKUVlVb25UWkZkRFlUMjhlU2s9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRVA3Y2xzOGlxQUtibXZ5K3Y2M3NrckZad1hxa3oySERLaER5MjZiNHkybz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZTNUQnllWWJ0SGtrMklXMjFXT1pUTDhreEVobXRJYlVPYXFqK2FhSW1oYz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InY4YkRMcVFUbXViREFzTEpWSG1uN0ZyU1A1ZndTRVppN2loT1UvNk9pd0lPdWtvNFNaWWU5Nk5tV2VSS3g4eFhEQmNEdUhrMUxpc2N2TC9JZzVSMER3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NjIsImFkdlNlY3JldEtleSI6InhQSndzbE5IQWNkR0ZYNVEyN3hjazZ4bk1MWWFHd3pQTWxRVCt3OVpxUnc9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6ImlCcXRBSVV4U1J1aGlSVGtiZWNHdHciLCJwaG9uZUlkIjoiOTNiZmJjNTgtNTY5MS00N2U4LWI1YmUtMzk1YTdlYjIzYzJiIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InI5RjhQdFJIS05FYk5ZSVExZVJtcm1vZ2czQT0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJwMks0eTVnaDZRT1JzZGtuSllVUkI4bzdaVUE9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiVFkzRjg0OFIiLCJtZSI6eyJpZCI6IjIzNDkxNjYzODIyMjQ6NDFAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0lTMzRZb0NFSXU5bGJVR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6Ik4yZkw3bXZUQ1BpMWw5QkxsV0VOdkdreC9ic3IrbEFoVVdtYUcwMzAyZ2M9IiwiYWNjb3VudFNpZ25hdHVyZSI6ImdIaTVNb3F6SVQycDZEZHJoYVMzd0hYbC82N2hkdEdaeis1SE01Yk1SVnU3MkpnQ1QrTnlud005VGhUbjRPWVlZVVlGNjNKK1NQelpFZHNQakxuckNRPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJWUGFqaFY3R00zLzMrSE5iT0g0ZHM2eEhOOFp1RjBuS01HWnNtTWJ4VmpjODV1amFURlZ0QUQrbjY2YkIyVU9rUS9hQjRKUTUxWW5nTXZpMWZYSDhCUT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjIzNDkxNjYzODIyMjQ6NDFAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCVGRueSs1cjB3ajR0WmZRUzVWaERieHBNZjI3Sy9wUUlWRnBtaHROOU5vSCJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcyMjExMzY4NywibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFCRkoifQ==",
       "required":true
       
     },
@@ -76,14 +76,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Cod3Uchiha"
+    "value": "anonymous"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "263775571820,263785028126"
+    "value": "2349166382224"
   },
     "WARN_COUNT":
   {
@@ -99,12 +99,12 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",  
+    "value":"2",  
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
-    "value": "no",
+    "value": "yes",
     "required": false
   }
   },
